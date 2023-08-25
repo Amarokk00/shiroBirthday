@@ -1,0 +1,102 @@
+﻿<!DOCTYPE html>
+<html><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1">
+    <title>Shiro’s Birthday — Keep Talking and Nobody Explodes Module</title>
+    <link rel="stylesheet" type="text/css" href="css/font.css">
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <script src="js/ktane-utils.js"></script><script src="js/jquery.3.1.1.min.js"></script>
+    <style>
+        .corner {
+            border: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="section">
+        <div class="page page-bg-01">
+            <div class="page-header">
+                <span class="page-header-doc-title">Keep Talking and Nobody Explodes Mod</span>
+                <span class="page-header-section-title">Shiro’s Birthday</span>
+            </div>
+            <div class="page-content">
+                <img src="img/Component/Shiros_Birthday.svg" class="diagram">
+                <h2>On the Subject of Shiro’s Birthday</h2>
+                <p class="flavour-text">When you have so many birthdays you must know how to organize the best parties.</p>
+                <ul>
+                    <li>Count all your birthday hats, make sure there is enough for every Walter or they will start wrecking the place.</li>
+                    <li>There is cake! It’s not a lie. Every group of Walters will eat a cake so make sure there is enough cake for them all or they might eat everything at the house.</li>
+                    <li>The more the merrier, count every happy Walter attending the party! You can also count unhappy Walters.</li>
+                    <li>With all this information you can get a party meter! If the party meter is at least 100% do not stop the party because it’s your birthday for the entire bomb’s duration.</li>
+                </ul>
+                <table width="100%">
+                    <tbody><tr>
+                        <th>Birthday hat</th>
+                        <td>20%</td>
+                    </tr>
+                    <tr>
+                        <th>Birthday cake</th>
+                        <td>20%</td>
+                    </tr>
+                    <tr>
+                        <th>Walter</th>
+                        <td>10%</td>
+                    </tr>
+                    <tr>
+                        <th>Group of Walters</th>
+                        <td>30%</td>
+                    </tr>
+                </tbody></table>
+                <ul>
+                    <li>For a party meter of less than 30% it’s a horrible party and the minutes drag on. You must watch the second number of the timer.</li>
+                    <li>If it’s more than 30% then it’s a pretty good party but the seconds fly by. You must watch the third number of the timer.</li>
+                    <li>And most importantly, you MUST count strikes!</li>
+                    <li>Subtract unhappy types of attendees from the meter. Groups of Walters might not be satisfied with a lack of cakes but single Walters with enough hats are still happy.</li>
+                </ul>
+                <table class="corner" width="100%">
+                    <tbody><tr>
+                        <td colspan="2" class="corner"></td>
+                        <th colspan="2">Strike Number</th>
+                    </tr>
+                    <tr>
+                        <td colspan="2" class="corner"></td>
+                        <th>Odd</th>
+                        <th>Even</th>
+                    </tr>
+                    <tr>
+                        <th rowspan="2">Timer Number</th>
+                        <th>Odd</th>
+                        <td>It’s your birthday</td>
+                        <td>It’s not your birthday</td>
+                    </tr>
+                    <tr>
+                        <th>Even</th>
+                        <td>It’s not your birthday</td>
+                        <td>It’s your birthday</td>
+                    </tr>
+                </tbody></table><p class="flavour-text">Press the button at the right time to solve the needy. DO NOT PRESS FOR A METER OF 100%</p>
+            </div>
+            <div class="page-footer relative-footer">Page 1 of 1</div>
+        </div>
+    </div>
+
+<div id="notification" style="display: none;"></div><div id="optionsMenu">
+            <h2>Options (Alt-O)</h2>
+            <div class="option-group">
+                <h3>Highlighter</h3>
+                <div><input type="checkbox" id="highlighter-enabled">&nbsp;<label for="highlighter-enabled" accesskey="h">Enabled</label> (Alt-H)</div>
+                <div>Color:</div>
+                <blockquote>
+                    <div><input type="radio" name="highlighter-color" class="highlighter-color" id="highlighter-color-blue" data-color="0" checked="">&nbsp;<label for="highlighter-color-blue" accesskey="1">Blue</label> (Alt-1)</div>
+                    <div><input type="radio" name="highlighter-color" class="highlighter-color" id="highlighter-color-red" data-color="1">&nbsp;<label for="highlighter-color-red" accesskey="2">Red</label> (Alt-2)</div>
+                    <div><input type="radio" name="highlighter-color" class="highlighter-color" id="highlighter-color-green" data-color="2">&nbsp;<label for="highlighter-color-green" accesskey="3">Green</label> (Alt-3)</div>
+                    <div><input type="radio" name="highlighter-color" class="highlighter-color" id="highlighter-color-yellow" data-color="3">&nbsp;<label for="highlighter-color-yellow" accesskey="4">Yellow</label> (Alt-4)</div>
+                </blockquote>
+            </div>
+            <div class="option-group">
+                <h3>Page layout</h3>
+                <div><input type="radio" name="page-layout" class="page-layout" id="page-layout-vertical">&nbsp;<label for="page-layout-vertical" accesskey="v"><kbd>V</kbd>ertical</label></div>
+                <div><input type="radio" name="page-layout" class="page-layout" id="page-layout-side-by-side">&nbsp;<label for="page-layout-side-by-side" accesskey="s"><kbd>S</kbd>ide by side</label></div>
+            </div>
+        </div></body></html>
